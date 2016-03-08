@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Tic Tac Toe</title>
+    
+    <meta name="description" content="Tic Tac Toe">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <link rel="stylesheet" href="css/tictactoe.css">
+  </head>
+
+  <body>
+    <div class="tictactoe">
+      <div class="tictactoe__choice">
+        <form>
+          <input type="radio" id="cross" class="cross" value="X" name="choice" checked>
+          <label for="cross">X</label>
+          <input type="radio" id="knot" class="knot" value="O" name="choice">
+          <label for="knot">O</label>
+        </form>
+      </div>
+      
+      <div class="tictactoe__game">
+        <div class="tictactoe-game__cell" data-cell-num="1"></div>
+        <div class="tictactoe-game__cell" data-cell-num="2"></div>
+        <div class="tictactoe-game__cell" data-cell-num="3"></div>
+        <div class="tictactoe-game__cell" data-cell-num="4"></div>
+        <div class="tictactoe-game__cell" data-cell-num="5"></div>
+        <div class="tictactoe-game__cell" data-cell-num="6"></div>
+        <div class="tictactoe-game__cell" data-cell-num="7"></div>
+        <div class="tictactoe-game__cell" data-cell-num="8"></div>
+        <div class="tictactoe-game__cell" data-cell-num="9"></div>
+      </div>
+      <div class="tictactoe__result"></div>
+    </div>
+    
+    <script src="//cdn.polyfill.io/v2/polyfill.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/blissfuljs/1.0.1/bliss.min.js"></script>
+    <script src="js/tictactoe.js"></script>
+  </body>
+
+</html>
